@@ -119,7 +119,7 @@ promise
 
 
 # Async/Await:
-it handle asynchronous code in a manner that appears synchronous. async functions still use promises under the hood
+it handle asynchronous code in a manner that appears synchronous. ***async functions still use promises under the hood***
 
 ```
 const fn = () =>{

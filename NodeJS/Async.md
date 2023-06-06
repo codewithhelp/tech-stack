@@ -123,3 +123,17 @@ const fn = () =>{
     const res2 = await function2();
 }
 ```
+
+**Error Handling**
+Error handling is done by using try/catch blocks
+
+```
+const fn = () =>{
+    try{
+        const res = await function1();
+        const res2 = await function2();
+    }catch(err){
+
+    }
+}
+```

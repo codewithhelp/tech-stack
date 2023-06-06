@@ -62,6 +62,10 @@ setTimeout(()=>{
 }, 1000);
 ```
 
+**Error Handling** Error first callbacks, first argument will be error
+```
+function (err, result) {}
+```
 
 
 # Promises: Promise is an object, that might return a value in the future.

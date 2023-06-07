@@ -49,6 +49,9 @@ class TicketManager extends EventEmitter{
 const ticketManager = new TicketManager(10);
 ticketManager.on("buy", (...payload)=>{
   console.log(payload, 'payload')
+  // save db
+  // send email
+  // print copy
 });
 ticketManager.on("error", (...payload)=>{
   console.log(payload, 'error')
